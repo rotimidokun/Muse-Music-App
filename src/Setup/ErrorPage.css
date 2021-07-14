@@ -1,0 +1,78 @@
+.bodyContainer {
+    height: 100vh;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 3em;
+}
+
+.errorHeader {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 1.2em;
+}
+
+.errorLogo {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.5em;
+    cursor: pointer; 
+    margin-left: 3em;
+    color: #a7d3d0; 
+}
+
+.errorText {
+    padding-top: 5em;
+}
+
+.errorText h1 {
+    font-size: 11em;
+}
+
+.errorText p {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: -2.4em;
+}
+
+.goHomeBtnTwo {
+    text-decoration: none;
+    color: black;
+    height: 30px;
+    width: 100px;
+    background-color: tomato;
+    border-radius: 3px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.goHomeBtnTwo:hover {
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 470px) {
+    .errorText h1 {
+    font-size: 7em;
+}
+
+.errorText p {
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: -1.4em;
+}
+
+.errorHeader {
+    display: unset;
+    text-align: center;
+    padding-top: 4.2em;
+}
+
+.errorLogo {
+    margin-left: 0px; 
+}
+
+}

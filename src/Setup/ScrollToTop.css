@@ -1,0 +1,58 @@
+.scroll-to-top {
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    background-color: #202022;
+    color: white;
+    border-radius: 100%;
+    text-align: center;
+    right: 6%;
+    bottom: 3em;
+    cursor: pointer;
+}
+
+.scroll-to-top i {
+   margin-top: 10px;
+   animation: scrollTop 0.5s alternate infinite;
+}
+
+@keyframes scrollTop{
+    from {
+        transform: translateY(2px);
+    }
+    
+    to {
+        transform: translateY(-1px);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .scroll-to-top{
+        right: 48%;
+        height: 30px;
+        width:  30px;
+        font-size: 15px;
+        background-color: #a7d3d0;
+        z-index: 1
+    }
+
+    .scroll-to-top i {
+   margin-top: 7px;
+   color: #202022;
+}
+
+}
+
+@media screen and (max-width: 400px) {
+    .scroll-to-top{
+        right: 47%;
+        height: 25px;
+        width:  25px;
+        font-size: 10px;
+    }
+
+    .scroll-to-top i {
+   margin-top: 6px;
+   color: #202022;
+}
+}

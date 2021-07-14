@@ -1,0 +1,39 @@
+.header {
+    width: auto;
+    padding: 1em 0 1.4em 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    color: #a7d3d0;
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-left: 6em;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        padding: 3em 0 1.2em 0;
+        text-align: center;
+        
+    }
+
+    .logo {
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        text-align: center;
+        
+    }
+
+    .logo {
+        margin-left: 0;
+    }
+
+}
